@@ -34,11 +34,13 @@ Este projeto tem como objetivo demonstrar uma API desenvolvida em Python para fi
    pip install -r requirements.txt
    ```
 3. **Modifique a url do Banco de Dados:**
-   ```echo "DATABASE_URL="postgresql://USARIO:SENHA@.../DATABASE"" > ./specs.env
+   ```bash
+   echo "DATABASE_URL="postgresql://USARIO:SENHA@.../DATABASE"" > ./specs.env
     
    ```
 4. **Configure o Banco de Dados**
-   ```psql -U USUARIO -d DATABASE -f create_tables.sql      
+   ```bash
+   psql -U USUARIO -d DATABASE -f create_tables.sql      
    ```
 
 ---
