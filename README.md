@@ -64,12 +64,6 @@ Antes de rodar a aplicação, crie as tabelas necessárias no banco PostgreSQL e
 psql -h <host> -p <porta> -U <usuario> -d <nome_do_banco> -f create_tables.sql
 ```
 
-Ou, utilize o script bash fornecido para facilitar:
-
-```bash
-./add_tables_postgres.sh
-```
-
 Certifique-se de que o arquivo `create_tables.sql` está presente na raiz do projeto.
 
 ---
