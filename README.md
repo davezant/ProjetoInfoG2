@@ -1,10 +1,10 @@
-# ProjetoInfoG2
+# LU Estilo
 
-Projeto feito para a apresentação de um código de API para a empresa InfoG2.
+Projeto desenvolvido especialmente para a **Lu Estilo**, uma empresa de confecção que busca automatizar e facilitar seus processos por meio de uma API moderna e flexível.
 
 ## Descrição
 
-Este projeto tem como objetivo demonstrar uma API desenvolvida em Python para fins de apresentação e avaliação pela empresa InfoG2. Ele inclui exemplos de validação de CPF, criação e gerenciamento de usuários, integração com banco de dados PostgreSQL, além de scripts úteis para configuração do ambiente e do banco de dados.
+Este projeto apresenta uma API robusta, desenvolvida em Python, com foco em atender as demandas do setor de confecção da Lu Estilo. O sistema foi pensado para integrar facilmente com sistemas internos, validar informações de clientes (como CPF), gerenciar usuários e permitir expansão por meio de plugins, promovendo agilidade e inovação no dia a dia da empresa.
 
 > **Compatibilidade:**  
 > Este programa é compatível com plugins, permitindo a extensão de suas funcionalidades conforme a necessidade da empresa.
