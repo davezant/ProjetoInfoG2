@@ -56,6 +56,26 @@ DATABASE_URL=postgresql://usuario:senha@localhost:5432/nome_do_banco
 
 ---
 
+## Docker
+
+Você pode executar a API facilmente usando Docker.
+
+### 1. Build da imagem
+
+Na raiz do projeto, execute:
+
+```bash
+docker build -t luestilo-api .
+```
+
+### 2. Execute o container
+
+```bash
+docker run -d -p 8000:8000 --env-file specs.env luestilo-api
+```
+
+---
+
 ## Criação das Tabelas
 
 Antes de rodar a aplicação, crie as tabelas necessárias no banco PostgreSQL executando o seguinte comando:
